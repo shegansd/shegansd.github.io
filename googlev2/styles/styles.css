@@ -58,6 +58,7 @@ a:hover{
 	justify-content: space-between;
 }
 .main{
+	margin-top: 170px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -93,6 +94,7 @@ a:hover{
 .search-box div{
 	display: inline-block;
 }
+
 input[type="submit"]{
 	width: 125px;
 	height: 33px;
@@ -105,4 +107,46 @@ input[type="submit"]:hover{
 	cursor: pointer;
 	border:1px solid #5f6368;
 	color:rgba(0,0,0,0.87);
+
+}
+.center-buttons{
+	margin-top: 29px;
+	display: flex;
+	justify-content: center;
+}
+.center-buttons input{
+margin-right: 12px;
+}
+
+.language{
+	margin-top: 33px;
+}
+.language a{
+	color:#1a0dab;
+	margin-top: 33px;
+}
+.country{
+	margin-top: 200px;
+	height: 47px;
+	background-color: #f2f2f2;
+    text-align: left;	
+	color: rgba(0,0,0,0.54);
+    padding-left: 47px;
+   	border: 1px solid;
+    border-color: #e4e4e4;  
+	font-size: 15px;
+	line-height: 40px;
+	font-family: arial, sans-serif;
+}
+
+.foot-parts{
+	height: 43px;
+	background-color: #F2F2F2;
+	border:1px solid#E4E4E4;
+	border-top: none;
+	color: #6F6F6F;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
 }
