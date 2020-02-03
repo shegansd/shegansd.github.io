@@ -9,6 +9,7 @@ body{
 }
 
 .color{
+	 height:1500px;
 	width:706px;
 	background:#09859d;
 	margin:0 auto;
@@ -26,7 +27,7 @@ body{
 	width:640px;
 	height:110px;
 	padding: 0 0 0 0;
-	background:left 0% / 100% 100% url('../img/header.png');
+	background:left 0% / 100% 100% 
 }
 .text_top{
 	width:540px;
@@ -68,7 +69,7 @@ ul{
 	justify-content:space-between;
 	text-align:center;
 	font-weight:bold;
-    width 570px;
+    width:570px;
     height:260px;
     position:absolute;
     top: 730px;
