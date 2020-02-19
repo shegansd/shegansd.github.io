@@ -1,0 +1,160 @@
+
+
+body{
+	font-family: Raleway,Arial,sans-serif; 
+}
+header{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+   
+}
+ .container{
+   display: flex;
+   width: 80vh;
+   align-items: center;
+   margin: 0 auto;
+   flex-direction: column;
+    
+   
+}
+.brand{
+    padding-bottom:20px ;
+    color: #77bae8;
+    margin: 0 auto; 
+    font-size: 1.5rem;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu li{
+    padding-left: 20px;
+}
+.menu li a{
+    font-size: 4vh;
+    color: #bcbcbc;
+    text-decoration: none;
+}
+.menu li a:hover{
+    text-decoration: underline;
+}
+.jumbotron{
+  display: flex;
+padding: 2em 1.5em;
+font-size: 3vh;
+min-height: 25vh;
+text-align: center;
+background-image:url(../img/jumbotron.jpg) ;
+background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ h1{
+	color: #fff;
+	text-transform:capitalize; 
+
+	margin: .25em 0;
+
+}
+.button{
+  height: 5vh;
+	 color: #fff; 
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FF69B4;
+  border-radius: 6px;
+  background-color: #FF69B4;
+  transition: 0.2s;
+} 
+a.button:hover{
+ background: rgb(232,95,76);
+}
+a.button:active{
+	background: #SDC143C;
+}
+	
+/* Services */
+.services{
+   display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.service{
+  flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.service .fa-3x{
+    font-size: 8em;
+    color:#979797;
+}
+.service p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #b0b0b0;
+}
+/* Blog */
+.blog{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+.post{
+  flex-direction: column;
+    padding-top: 10px;
+    display: flex;
+}
+h2{
+ font-size: 1.7em;
+}
+h3{
+    padding-top: 10px;
+    text-align: center;
+}
+.date{
+   color: #9b9b9b;
+    padding: 10px 0;
+}
+.post p{
+  color: #b0b0b0;
+    text-align: left;
+    }
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    min-height: 40vh;
+    background-color: #38404b;
+    
+}
+footer .brand{
+    color: #bcc9dd;
+    padding-bottom: 20px;
+}
+footer .menu{
+    color: #bcc9dd;
+}
+.copyright{
+   color: #cfd1d2;
+    padding-top: 20px;
+    font-size: .9em;
+   
+}
+
+
